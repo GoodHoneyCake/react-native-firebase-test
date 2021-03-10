@@ -7,6 +7,8 @@
  */
 
 import React from 'react';
+import { Component } from 'react';
+
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,15 +18,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const App = (props) => {
+const App = (props: any) => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -38,3 +32,4 @@ const App = (props) => {
 const styles = StyleSheet.create({});
 
 export default App;
+
